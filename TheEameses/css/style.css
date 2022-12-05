@@ -1,0 +1,65 @@
+
+
+.water {
+background-image: url("../img/fallingwater.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+
+}
+
+.chair {
+  background-image: url("../img/DCW Chair.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-fluid {
+  width: auto;
+  height: auto;
+}
+
+.House9 {
+  background-image: url("../img/CaseHouse9.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.PTen {
+  background-image: url("../img/PowersOfTen.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.BLeaf {
+  background-image: url("../img/BananaLeaf.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.img-fluid {
+  width: auto;
+  height: auto;
+}
+
+.Toy {
+  background-image: url("../img/AnimalToy.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.Misc {
+  background-image: url("../img/Speaker.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.Couple {
+  img-f
+}
