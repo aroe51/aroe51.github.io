@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: 'futura-pt-bold', sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+}
+
+
+header {
+  background-color: black;
+  text-align: left;
+}
+
+img.hal.png{
+  float: center;
+}
+
+.cast > ul {
+  color: white;
+  list-style-type: none;
+
+}
+
+ul{
+  list-style-type: none;
+  color: white;
+
+
+}
+
+li{
+  margin: 10px 0;
+  text-align: left;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > ul > li > a {
+  font-size: .9em;
+  text-align: right;
+}
+
+nav > ul > li > h1 {
+  font-size: 3em;
+}
+
+a {
+  color: white;
+  text-align: right;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+label {
+  text-decoration-color: white:
+}
+
+footer {
+  /*position: static;
+  z-index: 1*/
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  /*visibility hidden*/
+}
+
+p:first-line {
+  font-weight: bold;
+  color: white;
+}
+
+.about {
+  position: absolute;
+  z-index: -100;
+  left: 50px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 2px red solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 5px 10px black;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+  display: none;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  color: #FF00FF;
+  transition:2s ;
+}
+
+table{
+  color: white;
+  width: 100%;
+  float: left;
+  margin:auto;
+}
+
+th{
+  border: 10px red solid;
+}
+
+tr{
+  height: 100px;
+}
+td{
+  border: 10px red solid;}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: black;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  footer {
+    display: none;
+  }
+}
